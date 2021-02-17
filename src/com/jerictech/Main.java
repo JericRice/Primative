@@ -13,6 +13,8 @@ public class Main {
 
         System.out.println("Int minimum value = " + myMinIntValue);
         System.out.println("Int maximum value = " + myMaxIntValue);
+        System.out.println("Busted max value = " + (myMaxIntValue + 1)); // overflow
+        System.out.println("Busted min value = " + (myMinIntValue - 1)); // underflow
 
 
     }
