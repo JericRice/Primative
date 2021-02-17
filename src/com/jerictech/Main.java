@@ -1,8 +1,19 @@
 package com.jerictech;
 
+//Wrapper classes allow operations with a primitive
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        int myValue = 10000;
+
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+
+        System.out.println("Int minimum value = " + myMinIntValue);
+        System.out.println("Int maximum value = " + myMaxIntValue);
+
+
     }
 }
