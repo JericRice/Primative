@@ -15,18 +15,21 @@ public class Main {
         System.out.println("Busted max value = " + (myMaxIntValue + 1)); // overflow
         System.out.println("Busted min value = " + (myMinIntValue - 1)); // underflow
 
-        int myMinByteValue = Byte.MIN_VALUE;
-        int myMaxByteValue = Byte.MAX_VALUE;
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte minimum value = " + myMinByteValue);
         System.out.println("Byte maximum value = " + myMaxByteValue);
 
-        int myMinShortValue = Short.MIN_VALUE;
-        int myMaxShortValue = Short.MAX_VALUE;
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
         System.out.println("Short minimum value = " + myMinShortValue);
         System.out.println("Short maximum value = " + myMaxShortValue);
 
-
-
+        long myLongValue = 100L;
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long minimum value = " + myMinLongValue);
+        System.out.println("Long maximum value = " + myMaxLongValue);
 
     }
 }
